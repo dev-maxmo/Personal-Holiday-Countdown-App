@@ -59,6 +59,10 @@ h2 {
         padding: 2rem;
     }
 
+    h2 {
+        font-size: 3rem;
+    }
+
     .holiday-countdown {
         position: static;
     }
