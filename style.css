@@ -34,6 +34,7 @@ h2 {
 .countdown {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Caveat', cursive;
     font-size: 2rem;
@@ -42,4 +43,25 @@ h2 {
 
 .countdown div {
     text-align: center;
+}
+
+.date-time {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .holiday-countdown {
+        position: static;
+    }
+
+    .countdown div {
+        margin: 1rem .5rem;
+    }
 }
